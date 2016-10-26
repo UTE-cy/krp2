@@ -1,0 +1,349 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<title>krpano - pano_sphere</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta name="apple-mobile-web-app-capable" content="yes" />
+	<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+	<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+	<meta http-equiv="x-ua-compatible" content="IE=edge" />
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+<script src="tour.js"></script>
+
+<div id="pano" style="width:100%;height:100%;">
+	<div class="mask"></div>
+	<div class="list" id="list">
+			<h2>厨电选择</h2>
+			<div class="listCon">
+				<ul class="listTit tits">
+					<li data-type="zaoju">灶&nbsp;&nbsp;&nbsp;&nbsp;具</li>
+					<li data-type="yanji">烟&nbsp;&nbsp;&nbsp;&nbsp;机</li>
+					<li data-type="xiaodugui">消毒柜</li>
+					<li data-type="zhengxiang">蒸&nbsp;&nbsp;&nbsp;&nbsp;箱</li>
+					<li data-type="kaoxiang">烤&nbsp;&nbsp;&nbsp;&nbsp;箱</li>
+					<li data-type="xiwanji">洗碗机</li>
+					<li data-type="weibolu">微波炉</li>
+					<li data-type="yitiji" style="font-size: 16px;">蒸微一体机</li>
+					<li data-type="reshuiqi">热水器</li>
+				</ul>
+				<div class="listImg">
+					<ul class="rows">
+						<li data-type="zaoju" data-url="./images/燃气灶/HA1B.png">
+							<img src="../img/灶具/FD1BFD1BGD.png" alt="">
+						</li>
+						<li data-type="zaoju" data-url="./images/燃气灶/HA1B.png">
+							<img src="../img/灶具/HA1B.png" alt="">
+						</li>
+						<li data-type="zaoju" data-url="./images/燃气灶/HA2G.B.png">
+							<img src="../img/灶具/HA1G.png" alt="">
+						</li>
+						<li data-type="zaoju" data-url="./images/燃气灶/HA2G.B.png">
+							<img src="../img/灶具/HA2G.B.png" alt="">
+						</li>
+						<li data-type="zaoju" data-url="./images/燃气灶/HC1G.png">
+							<img src="../img/灶具/HA19HA19GDHA19E.png" alt="">
+						</li>
+						<li data-type="zaoju" data-url="./images/燃气灶/HC1B.png">
+							<img src="../img/灶具/HC1B.png" alt="">
+						</li>
+						<li data-type="zaoju" data-url="./images/燃气灶/HC1G.png">
+							<img src="../img/灶具/HC1G.png" alt="">
+						</li>
+						<li data-type="zaoju" data-url="./images/燃气灶/JACB.png">
+							<img src="../img/灶具/JACB.png" alt="">
+						</li>
+					</ul>
+					<ul class="rows">
+						<li data-type="yanji" data-url="./images/油烟机/EM02T.png">
+							<img src="../img/油烟机/CXW-200-EM02T.png" alt="">
+						</li>
+						<li data-type="yanji" data-url="./images/油烟机/EM03T.png">
+							<img src="../img/油烟机/CXW-200-EM03T.png" alt="">
+						</li>
+						<li data-type="yanji" data-url="./images/油烟机/EM05.png">
+							<img src="../img/油烟机/CXW-200-EM05.png" alt="">
+						</li>
+						<li data-type="yanji" data-url="./images/油烟机/EM10T.png">
+							<img src="../img/油烟机/CXW-200-EM10T.png" alt="">
+						</li>
+						<li data-type="yanji" data-url="./images/油烟机/EM11T.png">
+							<img src="../img/油烟机/CXW-200-EM11T.png" alt="">
+						</li>
+						<li data-type="yanji" data-url="./images/油烟机/JQ01TS.png">
+							<img src="../img/油烟机/CXW-200-JQ01TS.png" alt="">
+						</li>
+						<li data-type="yanji" data-url="./images/油烟机/JQ03TS.png">
+							<img src="../img/油烟机/CXW-200-JQ03TS.png" alt="">
+						</li>
+						<li data-type="yanji" data-url="./images/油烟机/JQ08TS-F.png">
+							<img src="../img/油烟机/CXW-200-JQ08TS-F.png" alt="">
+						</li>
+						<li data-type="yanji" data-url="./images/油烟机/JQ08TS-L.png">
+							<img src="../img/油烟机/CXW-200-JQ08TS-L.png" alt="">
+						</li>
+						<li data-type="yanji" data-url="./images/油烟机/JQ08TS-Y.png">
+							<img src="../img/油烟机/CXW-200-JQ08TS-Y.png" alt="">
+						</li>
+						<li data-type="yanji" data-url="./images/油烟机/JX05.png">
+							<img src="../img/油烟机/CXW-200-JX05.png" alt="">
+						</li>
+					</ul>
+					<ul class="rows">
+						<li data-type="xiaodugui" data-url="./images/消毒柜/ZTD110F-20Q.png">
+							<img src="../img/消毒柜/ZTD100F20Q20QGD.png" alt="">
+						</li>
+						<li data-type="xiaodugui" data-url="./images/消毒柜/ZTD100F-WH2.png">
+							<img src="../img/消毒柜/ZTD100FWH2.png" alt="">
+						</li>
+						<li data-type="xiaodugui" data-url="./images/消毒柜/ZTD100F-WH5.png">
+							<img src="../img/消毒柜/ZTD100FWH5.png" alt="">
+						</li>
+						<li data-type="xiaodugui" data-url="./images/消毒柜/ZTD100J-12.png">
+							<img src="../img/消毒柜/ZTD100J12.png" alt="">
+						</li>
+						<li data-type="xiaodugui" data-url="./images/消毒柜/ZTD100J-13.png">
+							<img src="../img/消毒柜/ZTD100J13.png" alt="">
+						</li>
+					</ul>
+					<ul class="rows">
+						<li data-type="zhengxiang" data-url="./images/蒸箱/CA1蒸箱.png">
+							<img src="../img/蒸箱/SCD26-C1A.png" alt="">
+						</li>
+						<li data-type="zhengxiang" data-url="./images/蒸箱/C2S蒸箱a.png">
+							<img src="../img/蒸箱/SCD26-C2S.png" alt="">
+						</li>
+						<li data-type="zhengxiang" data-url="./images/蒸箱/D1蒸箱a.png">
+							<img src="../img/蒸箱/SCD26-D1.png" alt="">
+						</li>
+						<li data-type="zhengxiang" data-url="./images/蒸箱/D2蒸箱.png">
+							<img src="../img/蒸箱/SCD26-D2.png" alt="">
+						</li>
+					</ul>
+					<ul class="rows">
+						<li data-type="kaoxiang" data-url="./images/烤箱/CA1烤箱.png">
+							<img src="../img/烤箱/KQD50F-C1A.png" alt="">
+						</li>
+						<li data-type="kaoxiang" data-url="./images/烤箱/C2S烤箱.png">
+							<img src="../img/烤箱/KQD50F-C2S.png" alt="">
+						</li>
+						<li data-type="kaoxiang" data-url="./images/烤箱/D1烤箱.png">
+							<img src="../img/烤箱/KQD50F-D1.png" alt="">
+						</li>
+						<li data-type="kaoxiang" data-url="./images/烤箱/D2烤箱.png">
+							<img src="../img/烤箱/KQD50F-D2.png" alt="">
+						</li>	
+					</ul>
+					<ul class="rows">
+						<li data-type="xiwanji" data-url="./images/洗碗机/Q1洗碗机.png">
+							<img src="../img/洗碗机/JBSD2T-Q1.png" alt="">
+						</li>	
+						<li data-type="xiwanji" data-url="./images/洗碗机/Q3洗碗机.png">
+							<img src="../img/洗碗机/JBSD2T-Q3.png" alt="">
+						</li>	
+					</ul>
+					<ul class="rows">
+						<li data-type="weibolu" data-url="./images/微波炉/D1微波炉.png">
+							<img src="../img/微波炉/W20800P.png" alt="">
+						</li>	
+						<li data-type="weibolu" data-url="./images/微波炉/W20800P-D2.png">
+							<img src="../img/微波炉/W20800P-D2.png" alt="">
+						</li>	
+						<li data-type="weibolu" data-url="./images/微波炉/W25800K-C1AG.png">
+							<img src="../img/微波炉/W25800P-C1AG.png" alt="">
+						</li>	
+						<li data-type="weibolu" data-url="./images/微波炉/W25800P-C2S.png">
+							<img src="../img/微波炉/W25800P-C2S.png" alt="">
+						</li>	
+					</ul>
+					<ul class="rows">	
+						<li data-type="yitiji">
+							<img src="../img/蒸微一体机/ZW-C2S.png" alt="">
+						</li>		
+						<li data-type="yitiji">
+							<img src="../img/蒸微一体机/ZW-D1.png" alt="">
+						</li>	
+					</ul>
+					<ul class="rows">	
+						<li data-type="reshuiqi">
+							<img src="../img/热水器/JSQ19-1101.png" alt="">
+						</li>		
+						<li data-type="reshuiqi">
+							<img src="../img/热水器/JSQ25-1103.png" alt="">
+						</li>		
+						<li data-type="reshuiqi">
+							<img src="../img/热水器/JSQ31-1105.png" alt="">
+						</li>		
+						<li data-type="reshuiqi">
+							<img src="../img/热水器/JSQ31-1402.png" alt="">
+						</li>	
+					</ul>
+				</div>
+			</div>
+	</div>
+	<div class="list2">
+			<h2>台伯河橱柜系列</h2>
+			<div class="listCon">
+				<ul class="listTit2 tits">
+					<li class="cur">
+						<span>台</span>
+						<span>面</span>
+						<span>材</span>
+						<span>质</span>
+						<span>颜</span>
+						<span>色</span>
+					</li>
+					<li>
+						<span>橱</span>
+						<span>柜</span>
+						<span>面</span>
+						<span>板</span>
+						<span>款</span>
+						<span>式</span>					
+					</li>
+				</ul>
+				<div class="listImg2">
+					<ul class="rows rows2">
+						<li data-type="taimian/taimian2/taimian3/taimian4" data-url="./images/路易十六/黑台面/pano_f.png&./images/路易十六/黑台面/pano_r.png&./images/路易十六/黑台面/pano_l.png&./images/路易十六/黑台面/pano_d.png">
+							<img src="./images/路易十六台面缩略图/黑台面.png" alt="">
+							<p>大理石台面</p>
+							<p>方太A型色</p>
+						</li>
+						<li data-type="taimian/taimian2/taimian3/taimian4" data-url="./images/路易十六/黄台面/pano_f.png&./images/路易十六/黄台面/pano_r.png&./images/路易十六/黄台面/pano_l.png&./images/路易十六/黄台面/pano_d.png">
+							<img src="./images/路易十六台面缩略图/黄台面.png" alt="">
+							<p>大理石台面</p>
+							<p>方太B型色</p>
+						</li>
+						<li data-type="taimian/taimian2/taimian3/taimian4" data-url="./images/路易十六/花台面/pano_f.png&./images/路易十六/花台面/pano_r.png&./images/路易十六/花台面/pano_l.png&./images/路易十六/花台面/pano_d.png">
+							<img src="./images/路易十六台面缩略图/花台面.png" alt="">
+							<p>大理石台面</p>
+							<p>方太C型色</p>
+						</li>
+					</ul>
+					<ul class="rows rows2">
+						<li>
+							<img src="../images/chuju_2.jpg" alt="">
+							<p>南美樱桃木</p>
+							<p>6019色</p>
+						</li>
+						<li>
+							<img src="../images/chuju_2.jpg" alt="">
+							<p>南美樱桃木</p>
+							<p>6019色</p>
+						</li>
+					</ul>
+				</div>
+			</div>
+	</div>
+	<iframe class="iframe2" frameborder="0" width="300px" height="300px"></iframe>
+	<span class="confirmBtn">确 定</span>
+	<span class="back">返 回</span>
+
+	
+	<noscript><table style="width:100%;height:100%;"><tr style="vertical-align:middle;"><td><div style="text-align:center;">ERROR:<br/><br/>Javascript not activated<br/><br/></div></td></tr></table></noscript>
+	<script src="../src/jquery.js"></script>
+	<script>
+		embedpano({swf:"tour.swf", xml:"tour.xml", target:"pano", html5:"prefer", mobilescale:1.0, passQueryParameters:true});
+		//var krpano = document.getElementById("krpanoSWFObject");
+		//krpano.call("empChangeHotSpotUrl('spot1','images/loading3.gif')");
+		function krpano () 
+		{
+			return document.getElementById("krpanoSWFObject");
+		}
+
+		
+		function choose(cur) {
+			var $lis = $('.listTit>li'), len = $lis.length;		
+			$('.list').css({'transition':'-webkit-transform 500ms ease-out','transform':'translate3d(0, 0, 0)'});
+			$('.mask').css({'transition':'-webkit-transform 500ms ease-out','transform':'translate3d(0, 0, 0)'});
+			$('.confirmBtn').css({'transition':'-webkit-transform 500ms ease-out','transform':'translate3d(790px, 630px, 0)'});/*
+			$('.iframe2').css({'transition':'-webkit-transform 500ms ease-out','transform':'translate3d(680px, 40px, 0)'});*/
+			for(var i = 0; i < len; i++){
+				if($($lis[i]).data('type') == cur){
+					$($lis[i]).addClass('cur').siblings().removeClass('cur');
+					$('.rows').scrollTop(0);
+					$('.rows').eq(i).show().siblings().hide();
+				}				
+			}
+		}
+
+		function choose2(cur){			
+			var $lis = $('.listTit2>li'), len = $lis.length;		
+			$('.list2').css({'transition':'-webkit-transform 500ms ease-out','transform':'translate3d(0, 0, 0)'});
+			$('.mask').css({'transition':'-webkit-transform 500ms ease-out','transform':'translate3d(0, 0, 0)'});
+			$('.confirmBtn').css({'transition':'-webkit-transform 500ms ease-out','transform':'translate3d(790px, 630px, 0)'});/*
+			$('.iframe2').css({'transition':'-webkit-transform 500ms ease-out','transform':'translate3d(680px, 40px, 0)'});*/
+			for(var i = 0; i < len; i++){
+				if($($lis[i]).data('type') === cur){
+					$($lis[i]).addClass('cur').siblings().removeClass('cur');
+					$('.rows').scrollTop(0);
+					$('.rows').eq(i).show().siblings().hide();
+				}				
+			}			
+		}
+
+		$('.listTit').on('click', 'li', function(){
+			var idx = $(this).index();
+			$(this).addClass('cur').siblings().removeClass('cur');
+			$('.rows').scrollTop(0);
+			$('.rows').eq(idx).show().siblings().hide();
+		});
+
+		/* 切换KRP图片 */
+		$('.rows').on('click', 'li',  function(e){
+			e.preventDefault();
+			//$(this).addClass('falg').siblings().removeClass('falg');
+			var $hot = $(this).data('type');				
+			//var $url = $(this).children('img')[0].src;
+			var $url = $(this).data('url');	
+			var krp = document.getElementById("krpanoSWFObject");
+				krp.call('changeUrl('+$hot+','+$url+')');
+
+			$('.list, .list2').css({'transition':'-webkit-transform 500ms ease-out','transform':'translate3d(-248px, 0, 0)'});
+
+			//$(".iframe2", parent.document.body).attr("src", $(this).data('type'));
+			$('.mask').css({'transition':'-webkit-transform 500ms ease-out','transform':'translate3d(100%, 0, 0)'});
+			
+		});	
+
+		/* 切换KRP图片2 */
+		$('.rows2').on('click', 'li',  function(e){
+			e.preventDefault();
+			var hots = $(this).data('type').split('/');
+			//console.log(hots)
+			var urls = $(this).data('url').split('&');
+			//console.log(urls)
+
+			var krp = document.getElementById("krpanoSWFObject");
+
+			for(var i = 0; i < hots.length; i++){
+				krp.call('changeUrl('+hots[i]+','+urls[i]+')');
+			}
+
+		});	
+
+		$('.confirmBtn').on('click', function() {
+			/*console.log($('li.falg'))
+			var len = $('li.falg').length;
+			console.log(len)
+			for(var i = 0; i < len; i++){
+							
+			}
+*/
+            var url = "http://localhost:8080/FT_/htmls/savePro.html?id=xxx22&name=33xx";
+         	location.href=url;
+		})
+
+		/*$('.back').on('click', function(){
+			var url = "http://localhost:8080/FT_/htmls/myCook.html";
+         	location.href = url;
+		})*/
+		
+
+	</script>
+</div>
+
+</body>
+</html>
